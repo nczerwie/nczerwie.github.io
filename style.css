@@ -1,0 +1,99 @@
+body {
+   background-image: url("https://media.istockphoto.com/id/1732963074/photo/starry-night-sky-in-space.jpg?s=612x612&w=0&k=20&c=AHcmpswk3g3toHSFt5yCV_1uzMZUaJl95p3UIgm8euo=");
+background-color: slategrey;
+scrollbar-color: #8f38ff #d6ecf3;
+  font-family: 'Tiny5', verdana, sans-serif;
+  font-size: 1rem;
+
+}
+
+* {
+  box-sizing: border-box;
+} 
+
+p {
+margin-left: 20px; 
+text-align: left;
+color: pink;
+width:80%;
+font-family: "courier new";
+}
+
+h1{
+color: mistyrose;
+}
+
+h2 {
+color: mistyrose;
+}
+
+h3 {
+color: mistyrose;
+}
+
+.tid{
+color: pink;
+  padding: 15px;
+  text-align: left;
+border: 4px dotted pink;
+width:80%;
+}
+
+.color{
+color: palevioletred;
+width:80%;
+}
+
+img.pic{
+width:120px;
+ height:120px;
+}
+
+img.bottom{
+position:absolute;
+left:0px;
+bottom:0px;
+width:85%;
+}
+
+img.rover{
+width:80%;
+height: 500px;
+}
+
+.navlink {
+  font-size: 19px;
+  padding: 10px 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  display: inline;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+border: 4px dotted pink;
+ padding: 5px;
+height:100%;
+background-color:black;
+
+}
+
+a:link {
+  color: mistyrose;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: mistyrose;
+}
+
+.remove {
+list-style-type: none;
+}
+
